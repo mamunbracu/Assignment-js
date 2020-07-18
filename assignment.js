@@ -1,12 +1,17 @@
 //Assignment quesion 01 -- feetToMiles
 
 function feetToMile(feet){
+    if(feet<0){
+        return "Distance never be in negative"
+    }
+    else{
     const mile = feet/5280;
     return mile;
+    }
 }
-var nanafeet = 5280;
+var nanafeet = -5280;
 var result = feetToMile(nanafeet);
-console.log(nanafeet,"Feet is equal to ",result, "miles");
+console.log(result);
 
 //Assignment quesion 02 -- woodCalculator
 
