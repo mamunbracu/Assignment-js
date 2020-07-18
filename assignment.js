@@ -1,11 +1,11 @@
 //Assignment quesion 01 -- feetToMiles
 
-function feetToMiles(feet){
+function feetToMile(feet){
     const mile = feet/5280;
     return mile;
 }
 var nanafeet = 5280;
-var result = feetToMiles(nanafeet);
+var result = feetToMile(nanafeet);
 console.log(nanafeet,"Feet is equal to ",result, "miles");
 
 //Assignment quesion 02 -- woodCalculator
